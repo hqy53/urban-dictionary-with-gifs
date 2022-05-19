@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 40vh;
+    background-color: #2ddba1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.search-box {
+    margin-top: 20px;
+    display: flex;
+}
+.search-box > input {
+    border: none;
+    padding: 0 10px;
+    width: 400px;
+    height: 50px;
+    outline: none;
+    font-size: 24px;
+}
+.search-box > button {
+    padding: 0 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: cornflowerblue;
+}
+.search-box > button:active {
+    background-color: black;
+}
+
+main {
+    padding: 20px 30vw;
+    box-sizing: border-box;
+}
+
+main > div {
+    min-height: 100px;
+}
+
+h1 {
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#search-btn, #term {
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#definition, #example {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

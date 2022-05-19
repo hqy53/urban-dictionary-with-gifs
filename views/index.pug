@@ -1,0 +1,21 @@
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width")
+        title Urban Dictionary with GIFs
+        link(rel="stylesheet" type="text/css" href="/style.css")
+    body
+        header
+            h1 Urban Dictionary with GIFs
+            div(class="search-box")
+                input(placeholder="Type any word here...", id="term")
+                button(id="search-btn") SEARCH
+        main
+            div
+                h2 Definition
+                p(class="definition", id="definition")
+            div
+                h2 Example
+                p(class="definition", id="example")
+            img(id="gif")
+        script(src='/script.js')
